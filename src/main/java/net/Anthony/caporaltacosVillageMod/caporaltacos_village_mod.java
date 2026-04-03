@@ -1,9 +1,10 @@
 package net.Anthony.caporaltacosVillageMod;
 
 import com.mojang.logging.LogUtils;
+import net.Anthony.caporaltacosVillageMod.block.ModBlocks;
+import net.Anthony.caporaltacosVillageMod.item.ModCreativeModTabs;
 import net.Anthony.caporaltacosVillageMod.item.ModItems;
 import net.minecraft.client.Minecraft;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -31,7 +32,11 @@ public class caporaltacos_village_mod {
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup);
 
@@ -49,7 +54,7 @@ public class caporaltacos_village_mod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.APPLE_BASKET);
             event.accept(ModItems.FLOWER_CROWN);
-            event.accept(ModItems.SCULPTED_STATUE);
+            event.accept(ModBlocks.SCULPTED_STATUE);
         }
     }
 

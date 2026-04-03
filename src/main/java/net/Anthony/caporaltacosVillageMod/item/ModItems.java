@@ -17,9 +17,6 @@ public class ModItems {
     public static final RegistryObject<Item> FLOWER_CROWN = ITEMS.register("flower_crown",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> SCULPTED_STATUE = ITEMS.register("sculpted_statue",
-            () -> new Item(new Item.Properties()));
-
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
