@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "caporaltacos_village_mod:item/apple_basket"
+  }
+}
+
