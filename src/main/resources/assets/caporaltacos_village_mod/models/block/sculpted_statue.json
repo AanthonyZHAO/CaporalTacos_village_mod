@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cub_all",
+  "textures": {
+    "all": "caporaltacos_village_mod:block/sculpted_statue"
+  }
+}
