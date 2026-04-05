@@ -52,7 +52,7 @@ public class caporaltacos_village_mod {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.APPLE_BASKET);
+            event.accept(ModBlocks.APPLE_BASKET);
             event.accept(ModItems.FLOWER_CROWN);
             event.accept(ModBlocks.SCULPTED_STATUE);
         }

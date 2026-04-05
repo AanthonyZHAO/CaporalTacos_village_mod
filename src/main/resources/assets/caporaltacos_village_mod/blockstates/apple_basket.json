@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "caporaltacos_village_mod:block/apple_basket" },
+    "facing=east": { "model": "caporaltacos_village_mod:block/apple_basket", "y": 90 },
+    "facing=south": { "model": "caporaltacos_village_mod:block/apple_basket", "y": 180 },
+    "facing=west": { "model": "caporaltacos_village_mod:block/apple_basket", "y": 270 }
+  }
+}

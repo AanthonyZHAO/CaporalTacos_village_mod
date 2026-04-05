@@ -1,10 +1,7 @@
 {
-  "item.caporaltacos_village_mod.apple_basket": "Apple Basket",
+  "block.caporaltacos_village_mod.apple_basket": "Apple Basket",
   "item.caporaltacos_village_mod.flower_crown": "Flowers Crown",
-
   "block.caporaltacos_village_mod.sculpted_statue": "Sculpted Statue",
-
-  "creativetab.caporaltacos_village_mod_tab": "CVM TAB",
-
+  "creativetab.caporaltacos_village_mod_tab": "CaporalTacos's Village"
 
 }

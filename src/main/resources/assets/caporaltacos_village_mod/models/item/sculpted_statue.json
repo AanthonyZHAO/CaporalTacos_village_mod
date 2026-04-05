@@ -1,3 +1,6 @@
 {
-  "parent": "caporaltacos_village_mod:block/sculpted_statue"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "caporaltacos_village_mod:item/sculpted_statue"
+  }
 }

@@ -17,10 +17,10 @@ public class ModCreativeModTabs {
     public static final RegistryObject<CreativeModeTab> CAPORALTACOS_VILLAGE_MOD_TAB =
             CREATIVE_MODE_TABS.register("caporaltacos_village_mod_tab",
                     () -> CreativeModeTab.builder()
-                            .icon(() -> new ItemStack(ModItems.APPLE_BASKET.get()))
+                            .icon(() -> new ItemStack(ModBlocks.APPLE_BASKET.get()))
                             .title(Component.translatable("creativetab.caporaltacos_village_mod_tab"))
                             .displayItems((parameters, output) -> {
-                                output.accept(ModItems.APPLE_BASKET.get());
+                                output.accept(ModBlocks.APPLE_BASKET.get());
                                 output.accept(ModItems.FLOWER_CROWN.get());
                                 output.accept(ModBlocks.SCULPTED_STATUE.get());
 

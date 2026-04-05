@@ -1,7 +1,8 @@
 {
   "variants": {
-    "": {
-      "model": "caporaltacos_village_mod:block/sculpted_statue"
-    }
+    "facing=north": { "model": "caporaltacos_village_mod:block/sculpted_statue" },
+    "facing=east": { "model": "caporaltacos_village_mod:block/sculpted_statue", "y": 90 },
+    "facing=south": { "model": "caporaltacos_village_mod:block/sculpted_statue", "y": 180 },
+    "facing=west": { "model": "caporaltacos_village_mod:block/sculpted_statue", "y": 270 }
   }
 }
