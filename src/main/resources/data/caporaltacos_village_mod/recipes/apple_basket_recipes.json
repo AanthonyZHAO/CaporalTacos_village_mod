@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PP",
+    "BB"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:apple"
+    },
+    "B": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "caporaltacos_village_mod:apple_basket",
+    "count": 1
+  }
+}

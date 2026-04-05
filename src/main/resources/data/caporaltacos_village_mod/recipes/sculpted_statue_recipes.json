@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "B": {
+      "tag": "caporaltacos_village_mod:stripped_woods"
+    },
+    "C": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "caporaltacos_village_mod:sculpted_statue",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PBP",
+    "B B",
+    "PBP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:vine"
+    },
+    "B": {
+      "tag": "minecraft:flowers"
+    }
+  },
+  "result": {
+    "item": "caporaltacos_village_mod:flower_crown",
+    "count": 1
+  }
+}
